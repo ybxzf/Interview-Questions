@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hservice>
+	<service name="videoplugin_demo_service" disp="videoplugin_demo_service" desc="videoplugin_demo_service"/>
+	<dump enable="true" isfull="true" count="-1" path=""/>
+	<dso file="DemoWebServer.dll"/>
+	<function init="WebServer_Init" uinit="WebServer_Uninit" start="WebServer_Start" stop="WebServer_Stop" error="WebServer_GetLastError" version="WebServer_GetVersion" gtest="WebServer_Gtest"/>
+</hservice>
