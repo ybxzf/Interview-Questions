@@ -1,0 +1,270 @@
+&Fichier
+  &Charger jeu	Alt+L
+  Auto-démarrer le jeu
+  Configurer les répertoires
+  Lancer/pauser l'émulation	Entrée
+  Frame suivante	Shift+Espace
+  Reset
+  Lancer le netplay
+  Case sauvegarde ...
+    Case 0
+    Case 1
+    Case 2
+    Case 3
+    Case 4
+    Case 5
+    Case 6
+    Case 7
+    Case 8
+    Case 9
+  Case sauvegarde précédente	F6
+  Case sauvegarde suivante	F8
+  Sauver	F5
+  Charger	F7
+  Case enregistrement ...
+    Case 0
+    Case 1
+    Case 2
+    Case 3
+    Case 4
+    Case 5
+    Case 6
+    Case 7
+    Case 8
+    Case 9
+  Enregistrer film	Shift+F5
+  Rejouer film	Shift+F7
+  Quitter	Alt+F4
+&Vidéo
+  Plein écran	Alt+Entrée
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Allocation mémoire vidéo...
+    Système
+    Carte graphique
+    Autodétection
+  Triple buffering
+  Saut de frame...
+    Aucun
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Saut de frame automatique	Alt+A
+  Mode turbo	Alt+T
+  Gamma adjustment
+  Contraste...
+    Plus sombre
+    Normal
+    Plus clair
+  Désactiver ...
+    Désactiver scrolling 8x8	Alt+1
+    Désactiver scrolling 16x16	Alt+2
+    Désactiver scrolling 32x32	Alt+3
+    Désactiver tous les sprites	Alt+4
+    Désactiver les couches de sprites (CPS2) ...
+      Désactiver couche sprite 0	Alt+Shift+0
+      Désactiver couche sprite 1	Alt+Shift+1
+      Désactiver couche sprite 2	Alt+Shift+2
+      Désactiver couche sprite 3	Alt+Shift+3
+      Désactiver couche sprite 4	Alt+Shift+4
+      Désactiver couche sprite 5	Alt+Shift+5
+      Désactiver couche sprite 6	Alt+Shift+6
+      Désactiver couche sprite 7	Alt+Shift+7
+      Tout réactiver	Alt+Shift+8
+    Désactiver Rowscroll	Alt+R
+    Désactiver BgHi (CPS1)	Alt+H
+    Désactiver masquage des sprites (CPS2)	Alt+M
+    Désactiver rasters (CPS2)	Alt+S
+  Couleur du fond...
+    Défaut
+    Noir
+    Rose
+    Cyan
+    Rouge
+    Vert
+    Bleu
+  Redessiner la frame sans messages	Alt+Espace
+  Interpolation des frames
+    Aucune
+    Oui
+    Oui, avec MMX (plus rapide)
+    Oui, "smart" (sans flou)
+    Oui, "smart" avec MMX (sans flou)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Activer les transparences
+  Choisir le blitter vidéo...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Normal
+      Avec scanlines
+      Avec scanlines 50%
+    Kreed blitters (MMX seulement)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai avec scanlines 75%
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX seulement)...	Shift+6
+      Normal
+      Avec scanlines 25%
+      Avec scanlines 50%
+      Avec scanlines 75%
+  Zoomer la fenêtre...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Correction du ratio fenêtré...
+    Aucun
+    Plus petit (marche avec tous les blitters)
+    Plus grand (pas adapté aux blitters scanlines)
+  Correction du ratio plein écran...
+    Aucun
+    Plus petit (marche avec tous les blitters)
+    Plus grand (pas adapté aux blitters scanlines)
+    Etirer
+&Son
+  Fréquence sonore...
+    11 KHz
+    22 KHz
+    44 KHz
+    48 KHz
+  Inverser la stéréo
+  Son mono
+  Son interpolé
+  &Filtre passe-bas
+  Options sonores CPS1...
+    Désactiver le OKIM6295
+    Désactiver canaux OKIM6295...
+      Canal 1
+      Canal 2
+      Canal 3
+      Canal 4
+    Désactiver le YM2151
+    Sauver le YM2151
+  Options sonores QSound (CPS2 et CPS1)...
+    Amplification QSound...
+      Moins fort
+      Normal
+      Plus fort
+    Désactiver effets QSound
+    Désactiver musique QSound
+    Désactiver le présentateur de SFA3
+  Options sonores NeoGeo...
+    Désactiver le YM2610
+    Désactiver le AY-3-8910
+  Jukebox Winamp 	Alt+J
+  Afficher information piste audio
+  Sauver le son en wav
+&Divers
+  Configurer la fréquence du 68000	Alt+F
+  Toujours visible	Ctrl+Alt+A
+  Auto-pause	Pause
+  Activer les raccourcis clavier menu
+  Multitask friendly
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Choisir le "language pack"
+&Jeu
+  Code de région
+  Dipswitches (CPS1)
+  Paramètres NeoGeo...
+    Arcade
+    Console
+    Europe
+    USA
+    Japon
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Cheats	Alt+C
+  Basculer cheats...
+    Afficher Cheats	Ctrl+Shift+0
+    Basculer cheat 1	Ctrl+Shift+1
+    Basculer cheat 2	Ctrl+Shift+2
+    Basculer cheat 3	Ctrl+Shift+3
+    Basculer cheat 4	Ctrl+Shift+4
+    Basculer cheat 5	Ctrl+Shift+5
+    Basculer cheat 6	Ctrl+Shift+6
+    Basculer cheat 7	Ctrl+Shift+7
+    Basculer cheat 8	Ctrl+Shift+8
+    Basculer cheat 9	Ctrl+Shift+9
+  Recharger le fichier cheat
+  Rechercher cheat...
+    Nouvelle recherche	Numlock
+    La valeur n'a pas changé depuis la dernière fois	Numpad /
+    La valeur a changé depuis la dernière fois	Numpad *
+    La valeur a baissé depuis la dernière fois	Shift + numpad /
+    La valeur a augmenté depuis la dernière fois	Shift + numpad *
+    Sauver la liste des possibilités
+  Redéfinir les touches...
+    Redéfinir les touches joueur 1 ...
+    Redéfinir les touches joueur 2 ...
+    Redéfinir les touches joueur 3 ...
+    Redéfinir les touches joueur 4 ...
+  Reset touches par défaut
+  Utiliser les paramètres Hotrod
+  Recharger les paramètres depuis le .ini
+  Sauver les paramètres dans le .ini
+  Sauver les paramètres en tant que défaut
+&Outils
+  Effacer les messages pour les captures
+  Capture écran (brut)	Ctrl+P
+  Capture écran (filtré)	Ctrl+Alt+P
+  Usine à captures
+  Viewer de tiles	Ctrl+T
+  Debugger 68000	Ctrl+D
+  Audit romsets
+  Générer un DAT Romcenter
+  Générer un DAT ClrMAMEPro
+  Activer la sauvegarde des C décryptées après chargement
+&?
+  &A propos de Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=10
+Language=French
+Author=Pamela Perredi
